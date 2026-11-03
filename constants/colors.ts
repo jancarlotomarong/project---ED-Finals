@@ -1,0 +1,22 @@
+// Black & pink theme (near-black background, hot pink primary).
+export const COLORS = {
+  primary: '#FF4D9D',
+  primaryHover: '#E63D8A',
+  primaryMuted: 'rgba(255, 77, 157, 0.16)',
+  background: '#0B0A0C',
+  card: '#161316',
+  surface: '#1F1A1E',
+  surfaceHover: '#2A2229',
+  border: '#3A2A34',
+  borderSubtle: '#241C22',
+  textPrimary: '#FFF1F7',
+  textSecondary: '#C9A3B6',
+  textMuted: '#85667A',
+  textOnPrimary: '#1A0612',
+  warning: '#FFB020',
+  success: '#3DDC97',
+  danger: '#FF5A6E',
+  info: '#B58CFF',
+  shadow: 'rgba(0, 0, 0, 0.6)',
+  overlay: 'rgba(11, 10, 12, 0.78)',
+} as const;

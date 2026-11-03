@@ -1,0 +1,27 @@
+# local env files
+.env
+.env*.local
+
+# dependencies
+node_modules/
+
+# expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# macOS
+.DS_Store
+
+# debug
+npm-debug.*
+*.log
